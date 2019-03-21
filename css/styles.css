@@ -1,26 +1,41 @@
 .mk-body {
   background-color: #f6f6f6;
   font-family: sans-serif;
-  display: block;
-  height: 100%;
   list-style: none;
+}
+
+img {
+  width: 179px;
 }
 
 .sidebar {
   font-size: inherit;
   position: absolute;
   top: 0;
-  width: 10em;
+  width: 180px;
   left: 0;
-  border-right: skyblue 2px;
-  margin: 0 0.6em 0 0.7em;
+  border-right: solid skyblue 1px;
+  padding-left: 200px;
+  margin:  0.6em 0 0.7em;
   padding: 0.25em 0;
-  direction: ltr;
+  direction: ltr
+
 }
 
 #line {
   border-bottom: solid 2px lightgrey;
   margin-left: 38px;
+}
+
+.header {
+  margin-top: 110px;
+  margin-left: 220px;
+  border-top: 1px solid lightgrey;
+  border-bottom: solid lightgrey 1px;
+  border-left: solid lightgrey 1px;
+  width: 300px;
+  text-align: center;
+
 }
 
 /*
